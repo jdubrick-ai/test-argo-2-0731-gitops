@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: test-argo-2-repository
+spec:
+  url: https://github.com/jdubrick-ai/test-argo-2-0731
